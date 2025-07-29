@@ -1,4 +1,4 @@
-## Azure Secure Storage with RBAC and SAS Tokens.
+## Azure Secure Storage with RBAC and SAS Tokens Lab
 
 Securing Azure Storage Accounts using RBAC, SAS tokens and Log Analytics. 
 
