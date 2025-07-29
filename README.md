@@ -6,12 +6,12 @@ Securing Azure Storage Accounts using RBAC, SAS tokens and Log Analytics.
 
 ## Table of Contents
 
-- [Overview]
-- [Real-World Risk]
-- [What I Built]
-- [Diagram]
-- [Objectives]
-- [Steps Performed]
+- [Overview](#overview)
+- [Real-World Risk](#real-world-risk)
+- [What I Built](#what-i-built)
+- [Diagram](#diagram)
+- [Objectives](#objectives)
+- [Steps Performed](#steps-performed)
   - [1. Resource Group Setup]  
   - [2. Storage Account Deployment]  
   - [3. RBAC Role Assignment] 
@@ -20,10 +20,10 @@ Securing Azure Storage Accounts using RBAC, SAS tokens and Log Analytics.
   - [6. Diagnostic Settings: Metrics and Limitations]  
   - [7. Log Analytics Workspace Setup and Querying]
   - [8. Cleanup]
-- [Screenshots]
-- [Lessons Learned]
-- [Notes & Limitations]
-- [References]
+- [Screenshots](#screenshots)
+- [Lessons Learned](#lessons-learned)
+- [Notes & Limitations](#notes--limitations)
+- [References](#references)
 
 ---
 
