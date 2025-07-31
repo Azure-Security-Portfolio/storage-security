@@ -24,6 +24,7 @@ Securing Azure Storage Accounts using RBAC, SAS tokens and Log Analytics.
 - [Lessons Learned](#lessons-learned)
 - [Notes & Limitations](#notes--limitations)
 - [References](#references)
+- [Contact](#contact)
 
 ---
 
@@ -158,6 +159,7 @@ This lab shows how to:
 
 ---
 
-Sebastian Silva C. – July 2025 – Berlin, Germany.
-- [LinkedIn](https://www.linkedin.com/in/sebastiansilc/)
-- [GitHub](https://github.com/SebaSilC)
+## Contact
+
+Sebastian Silva C. – July, 2025 – Berlin, Germany.  
+[LinkedIn](https://www.linkedin.com/in/sebastiansilc) | [GitHub](https://github.com/SebaSilC) | [sebastian@playbookvisualarts.com](mailto:sebastian@playbookvisualarts.com)
