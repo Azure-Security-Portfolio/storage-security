@@ -76,30 +76,30 @@ This lab shows how to:
 ## Steps Performed
 
 **1. Resource Group Setup**  
-   - Created a dedicated resource group for the lab (`rg-sec-lab6-jd`)*(Screenshot: resource_group_create.png)*
+   - Created a dedicated resource group for the lab (`rg-sec-lab6-jd`)*(Screenshot: `resource_group_create.png`)*
 
 **2. Storage Account Deployment**  
-   - Created a secure Azure Storage Account (`stseclab6jd`) with public/anonymous access disabled and secure transfer enabled *(Screenshot: storage_account_create.png)*
+   - Created a secure Azure Storage Account (`stseclab6jd`) with public/anonymous access disabled and secure transfer enabled *(Screenshot: `storage_account_create.png`)*
 
 **3. RBAC Role Assignment**  
-   - Assigned the **Storage Blob Data Reader** role to a test user, enforcing least-privilege access to blobs *(Screenshot: rbac_role_assignment.png)*
+   - Assigned the `Storage Blob Data Reader` role to a test user, enforcing least-privilege access to blobs *(Screenshot: `rbac_role_assignment.png`)*
 
 **4. Blob Container and Data Upload**  
-   - Created a private blob container (`datacontainer`) to securely store data *(Screenshot: container_create.png)*
-   - Uploaded a test file to the new container *(Screenshot: file_uploaded.png)*
+   - Created a private blob container (`datacontainer`) to securely store data *(Screenshot: `container_create.png`)*
+   - Uploaded a test file to the new container *(Screenshot: `file_uploaded.png`)*
 
 **5. SAS Token Generation and Testing**  
-   - Generated a SAS token granting time-limited, read-only access to the blob *(Screenshot: generate_sas_form.png)*
-   - Tested blob access using the SAS URL in an incognito/private browser window to verify secure access *(Screenshot: sas_token_test.png)*
+   - Generated a SAS token granting time-limited, read-only access to the blob *(Screenshot: `generate_sas_form.png`)*
+   - Tested blob access using the SAS URL in an incognito/private browser window to verify secure access *(Screenshot: `sas_token_test.png`)*
 
 **6. Diagnostic Settings: Metrics and Limitations**  
-   - Attempted to enable diagnostic settings for blob activity logs; portal UI only showed metric options (no log categories)*(Screenshot: diag_setting_no_log_categories.png)*  
-   - Enabled available metrics logging (Transaction, Capacity) via the portal *(Screenshot: diag_setting_portal_metrics_only.png)*
-   - Used Azure CLI to list supported diagnostic categories, confirming only metrics are available for this storage account type*(Screenshot: diag_setting_categories_cli.png)*
+   - Attempted to enable diagnostic settings for blob activity logs; portal UI only showed metric options (no log categories) *(Screenshot: `diag_setting_no_log_categories.png`)*  
+   - Enabled available metrics logging (Transaction, Capacity) via the portal *(Screenshot: `diag_setting_portal_metrics_only.png`)*
+   - Used Azure CLI to list supported diagnostic categories, confirming only metrics are available for this storage account type*(Screenshot: `diag_setting_categories_cli.png`)*
 
 **7. Log Analytics Workspace Setup and Querying**  
-   - Created and connected a Log Analytics workspace to collect storage metrics *(Screenshot: log_analytics_create.png)*
-   - Queried storage metrics using KQL to validate monitoring setup and display transaction data for the storage account *(Screenshot: log_analytics_query_results.png)*
+   - Created and connected a Log Analytics workspace to collect storage metrics *(Screenshot: `log_analytics_create.png`)*
+   - Queried storage metrics using KQL to validate monitoring setup and display transaction data for the storage account *(Screenshot: `log_analytics_query_results.png`)*
 
 **8. Cleanup**
    - Delete the resource group (rg-sec-lab6-jd) to remove all resources.
@@ -110,7 +110,7 @@ This lab shows how to:
 
 ## Screenshots
 
-*All screenshots are included in the screenshots/ folder.*
+*All screenshots are included in the `screenshots/` folder.*
 
 | Step | Filename                               | Description                                                    |
 |------|----------------------------------------|----------------------------------------------------------------|
